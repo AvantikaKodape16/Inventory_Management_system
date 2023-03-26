@@ -1,4 +1,24 @@
-# Inventory_Management_system
-The project Inventory Management System is a complete web based application made using HTML, CSS, PHP, JAVASCRIPT, MySql,  Bootstrap.
-This application provides the users to manage brands,category,products,orders and report.In brand page admin can add , update and remove the brand information.
-In product section, the admin can add the product information and manage the stock. In order section, the application will manage the stock of the product and generates the total amount of payment to be pay by the client.
+# Inventory Management System
+
+A simple PHP web system for managing an inventory.  
+  
+
+## Installation
+* Clone the repository and move the root folder to the deployment folder of your browser. (for Apache, this is htdocs)
+* Create a blank DB called *shop_inventory* in MySQL
+* Load the sql dump to the newly created _shop_inventory_ database
+* Change the root url of your website in [constants.php](inc/config/constants.php) file
+
+## Requirements
+* PHP
+* MySQL
+* Apache
+* Google Chrome web browser (JavaScript enabled)
+* Internet connection with a reasonable speed
+
+## Usage
+* Access the login.php file from via browser and give _guest_ as username and _1234_ as password
+
+
+## Acknowledgments
+* Inspired by many similar projects online
